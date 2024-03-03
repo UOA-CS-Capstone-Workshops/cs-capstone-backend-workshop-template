@@ -1,0 +1,18 @@
+.item {
+  display: grid;
+  column-gap: 5px;
+  grid-template-columns: 1fr 110px auto;
+  align-items: center;
+
+  padding-top: 10px;
+  padding-bottom: 10px;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid lightgray;
+  }
+
+  & .date {
+    color: #858585;
+    font-style: italic;
+  }
+}

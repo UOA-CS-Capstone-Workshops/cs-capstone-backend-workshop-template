@@ -1,0 +1,12 @@
+.input {
+  border: 2px solid transparent;
+  border-bottom: 2px solid rgb(87, 59, 148);
+  outline: none;
+  padding: 5px 0 5px 10px;
+  font-size: large;
+
+  &:focus {
+    border: 2px solid rgb(87, 59, 148);
+    border-radius: 4px;
+  }
+}
