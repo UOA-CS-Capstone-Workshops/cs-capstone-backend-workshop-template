@@ -2,6 +2,8 @@ import { Router } from "express";
 
 const router = Router();
 
-// TODO Add your todos API routes here
+import todosRoute from "./api-todos.js";
+
+router.use("/todos", todosRoute);
 
 export default router;
